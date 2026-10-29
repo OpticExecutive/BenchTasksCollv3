@@ -1,1 +1,3 @@
-[{"implementor": "lueyang-dev", "task_name": "activity-logger"}, {"implementor": "yuzhen-dev", "task_name": "alert-system"}, {"implementor": "yuxuan-dev", "task_name": "asset-optimizer"}, {"implementor": "xiaochen_dev", "task_name": "backup-utility"}, {"implementor": "gyy", "task_name": "blog-engine"}, {"implementor": "junteng_dev", "task_name": "booking-system"}, {"implementor": "yuzhen-dev", "task_name": "audit-logger"}, {"implementor": "yuzhen-dev", "task_name": "resource-monitor"}]
+import json
+with open('/workspace/dumps/workspace/full_implemented_tasks.json') as f:
+    content = f.read()
